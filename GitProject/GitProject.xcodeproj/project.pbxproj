@@ -14,6 +14,8 @@
 		EE889B2C1FB1B2E000F79847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE889B2B1FB1B2E000F79847 /* Assets.xcassets */; };
 		EE889B2F1FB1B2E000F79847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE889B2D1FB1B2E000F79847 /* LaunchScreen.storyboard */; };
 		EE889B3A1FB1B2E000F79847 /* GitProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE889B391FB1B2E000F79847 /* GitProjectUITests.m */; };
+		EE889B471FB29AF500F79847 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE889B451FB29AF400F79847 /* TestViewController.m */; };
+		EE889B481FB29AF500F79847 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE889B461FB29AF400F79847 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		EE889B351FB1B2E000F79847 /* GitProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE889B391FB1B2E000F79847 /* GitProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitProjectUITests.m; sourceTree = "<group>"; };
 		EE889B3B1FB1B2E000F79847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE889B441FB29AF400F79847 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		EE889B451FB29AF400F79847 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		EE889B461FB29AF400F79847 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				EE889B231FB1B2E000F79847 /* AppDelegate.m */,
 				EE889B251FB1B2E000F79847 /* ViewController.h */,
 				EE889B261FB1B2E000F79847 /* ViewController.m */,
+				EE889B441FB29AF400F79847 /* TestViewController.h */,
+				EE889B451FB29AF400F79847 /* TestViewController.m */,
+				EE889B461FB29AF400F79847 /* TestViewController.xib */,
 				EE889B281FB1B2E000F79847 /* Main.storyboard */,
 				EE889B2B1FB1B2E000F79847 /* Assets.xcassets */,
 				EE889B2D1FB1B2E000F79847 /* LaunchScreen.storyboard */,
@@ -195,6 +203,7 @@
 			files = (
 				EE889B2F1FB1B2E000F79847 /* LaunchScreen.storyboard in Resources */,
 				EE889B2C1FB1B2E000F79847 /* Assets.xcassets in Resources */,
+				EE889B481FB29AF500F79847 /* TestViewController.xib in Resources */,
 				EE889B2A1FB1B2E000F79847 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +224,7 @@
 			files = (
 				EE889B271FB1B2E000F79847 /* ViewController.m in Sources */,
 				EE889B241FB1B2E000F79847 /* AppDelegate.m in Sources */,
+				EE889B471FB29AF500F79847 /* TestViewController.m in Sources */,
 				EE889B211FB1B2E000F79847 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +422,7 @@
 				EE889B401FB1B2E000F79847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE889B411FB1B2E000F79847 /* Build configuration list for PBXNativeTarget "GitProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				EE889B431FB1B2E000F79847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
